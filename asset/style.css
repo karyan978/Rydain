@@ -1,0 +1,460 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Cinzel Decorative", serif;
+
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+    /* overflow-x: hidden; */
+}
+
+.main-section {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    background-color: #052a39 !important;
+}
+
+nav img {
+    height: 8vh !important;
+}
+
+.royal-enfild {
+    position: absolute;
+    text-align: center;
+    left: 29% !important;
+    bottom: 0;
+    backdrop-filter: blur(20px);
+    /* 200px bahut zyada hota hai, 20px ya 30px better hota hai */
+    background-color: rgba(254, 7, 7, 0.2);
+    /* Red background with transparency */
+    height: 80vh;
+    width: 80vh;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#subheadings {
+    width: 100px;
+}
+
+.main-section-1 {
+    height: 70vh;
+    width: 100vw;
+    overflow: hidden;
+    /* background-color: #01121f; */
+
+}
+
+.container-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10%;
+    overflow: hidden;
+}
+
+.main-section-2 {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    height: 30vh;
+    width: 100%;
+    background-color: rgb(9, 17, 17);
+    overflow: hidden;
+    overflow: hidden;
+}
+
+.main-section-2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.main-section-2 .title {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.title strong {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(0, 38, 255);
+    padding: 20px;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 25px;
+}
+
+.heading {
+    font-size: 15px;
+}
+
+.main-section-2 p {
+    width: 40%;
+}
+
+@media (max-width: 1300px) {
+    .royal-enfild {
+        position: absolute;
+        left: 28% !important;
+        bottom: 0%;
+    }
+}
+
+@media (max-width: 1000px) {
+    .royal-enfild {
+        position: absolute;
+        left: 16% !important;
+        bottom: 0%;
+    }
+}
+
+@media (max-width: 900px) {
+    .royal-enfild {
+        position: absolute;
+        left: 12% !important;
+        bottom: 0%;
+    }
+}
+
+@media (max-width: 800px) {
+    .royal-enfild {
+        position: absolute;
+        left: 11% !important;
+        bottom: 0%;
+    }
+}
+
+@media (max-width: 750px) {
+    .royal-enfild {
+        position: absolute;
+        left: 11% !important;
+        bottom: 0%;
+        height: 65vh;
+        width: 75vw;
+    }
+}
+
+@media (max-width: 700px) {
+    .royal-enfild {
+        position: absolute;
+        left: 10% !important;
+        bottom: 0%;
+    }
+}
+
+@media (max-width: 600px) {
+    .royal-enfild {
+        position: absolute;
+        left: 8% !important;
+        bottom: 0%;
+        height: 60vh;
+        width: 80vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .royal-enfild {
+        position: absolute;
+        left: 7% !important;
+        bottom: 0%;
+        height: 50vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-section {
+        flex-direction: column;
+    }
+
+    .royal-enfild {
+        position: absolute;
+        left: 20%;
+        bottom: 0%;
+    }
+}
+
+.royal-enfild #honda {
+    position: absolute;
+    bottom: 0%;
+    z-index: 99;
+    width: 90vh;
+    height: 100vh;
+
+
+}
+
+/* 2nd part */
+
+.main-section-3 {
+    position: relative;
+    height: auto;
+    width: 100%;
+    background-color: rgb(11, 1, 1);
+    overflow-x: visible;
+}
+
+.motor-ingine {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    width: 80vh;
+    overflow: hidden;
+}
+
+.motor-ingine #honda {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    width: 90vh;
+    height: 100vh;
+}
+
+.motor-ingine-information .information {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.title-p {
+    background-color: #111;
+    color: white;
+    padding: 20px;
+    font-size: 32px;
+    font-weight: bold;
+  }
+
+  .product-information {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+    flex-wrap: wrap;
+    overflow: hidden;
+  }
+
+  .text-box {
+    flex: 1;
+    max-width: 300px;
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  .road-image {
+    width: 100%;
+    height: 70vh;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    rotate: 90deg;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  }
+
+
+
+.video-container {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 56.25%; /* 16:9 aspect ratio */
+  }
+  
+  .video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  .main-section-6{
+    position: relative;
+    height: auto;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(29, 28, 28);
+    overflow-x: visible;
+  }
+  .img-container{
+    height: 100vh;
+    width: 23%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .img-container img{
+    width: 100%;
+    height: 100vh;
+    rotate: 90deg;
+    display: flex;
+    justify-items: center;
+    align-items: center
+  }
+
+
+  .slider {
+      width: 100%;
+      overflow: hidden;
+      background: #000000;
+    }
+
+    .slide-track {
+      display: flex;
+      width: calc(250px * 10);
+      height: 140px;
+      animation: scroll 20s linear infinite;
+    }
+
+    .slide {
+      width: 250px;
+      margin: 0 10px;
+      background: #1801012a;
+      text-align: center;
+      line-height: 150px;
+      font-size: 24px;
+      border-radius: 10px;
+      flex-shrink: 0;
+    }
+    .slide img{
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    @keyframes scroll {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-50%); }
+    }
+
+    .product-container{
+        width: 100%;
+        height: auto;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        overflow: hidden;
+    }
+
+    .product-bar{
+        margin-top: 20px;
+        background:linear-gradient(#000000, #e11d48);
+    }
+    .product-price{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 50px;
+        gap: 20px;
+    }
+    
+
+
+
+
+/* footer */
+
+.footer {
+    background-color: #0a0a0a;
+    /* Black for a bold, tech feel */
+    color: #f5f5f5;
+    padding: 50px 20px 20px 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.footer-section {
+    flex: 1 1 220px;
+    min-width: 200px;
+}
+
+.footer-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #e11d48;
+    /* Red accent for energy */
+}
+
+.footer-section h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #e11d48;
+}
+
+.footer-section p,
+.footer-section a {
+    color: #cbd5e1;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    color: #e11d48;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 8px;
+}
+
+.social-icons a {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: #e11d48;
+    color: #fff;
+    padding: 6px 10px;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.social-icons a:hover {
+    background-color: #fff;
+    color: #e11d48;
+    transform: scale(1.1);
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    border-top: 1px solid #333;
+    padding-top: 15px;
+    font-size: 13px;
+    color: #777;
+}

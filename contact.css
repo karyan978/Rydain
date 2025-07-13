@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700;900&display=swap');
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #111;
+    color: #ffffff;
+    font-family: "Cinzel Decorative", serif;
+
+}
+
+nav {
+    margin: 0;
+    padding: 0;
+    background-color: #052a39 !important;
+}
+
+nav img {
+    height: 8vh !important;
+}
+
+header {
+    background-color: #010a22;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 40px 20px;
+}
+
+section {
+    margin-bottom: 60px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #ffffff;
+    border-left: 5px solid #ff3c00;
+    padding-left: 15px;
+    margin-bottom: 20px;
+}
+
+/* Contact Form */
+form {
+    background: transparent;
+    backdrop-filter: blur(90px);
+    background-color: #052a39;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-left: 5px solid #ff3c00;
+}
+
+form label {
+    display: block;
+    margin: 15px 0 5px;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+form button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    background-color: #ff3c00;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #e63800;
+}
+
+.info-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.info-box {
+    flex: 1;
+    min-width: 250px;
+    background: transparent;
+    backdrop-filter: blur(90px);
+    background-color: #052a39;
+    padding: 20px;
+    border-left: 5px solid #ff3c00;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+iframe {
+    width: 100%;
+    height: 350px;
+    border: none;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.faq {
+     background: transparent;
+    backdrop-filter: blur(90px);
+    background-color: #052a39;
+    padding: 20px;
+    border-left: 5px solid #ff3c00;
+}
+
+.faq-item {
+    margin-bottom: 15px;
+}
+
+.faq-item strong {
+    color: #fffdfd;
+}
+
+@media (max-width: 768px) {
+    .info-boxes {
+        flex-direction: column;
+    }
+}
+ .footer {
+  background-color: #0a0a0a; /* Black for a bold, tech feel */
+  color: #f5f5f5;
+  padding: 50px 20px 20px 20px;
+  font-family: "Cinzel Decorative", serif;
+
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: auto;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.footer-section {
+  flex: 1 1 220px;
+  min-width: 200px;
+}
+
+.footer-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #e11d48; /* Red accent for energy */
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #e11d48;
+}
+
+.footer-section p,
+.footer-section a {
+  color: #cbd5e1;
+  font-size: 14px;
+  text-decoration: none;
+}
+
+.footer-section a:hover {
+  color: #e11d48;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+  background-color: #e11d48;
+  color: #fff;
+  padding: 6px 10px;
+  border-radius: 4px;
+  font-size: 14px;
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.social-icons a:hover {
+  background-color: #fff;
+  color: #e11d48;
+  transform: scale(1.1);
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #333;
+  padding-top: 15px;
+  font-size: 13px;
+  color: #777;
+}
